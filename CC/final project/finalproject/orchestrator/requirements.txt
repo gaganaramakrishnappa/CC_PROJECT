@@ -1,0 +1,12 @@
+docker
+flask
+marshmallow_sqlalchemy
+requests
+flask_sqlalchemy
+flask_marshmallow
+sqlalchemy
+ipython
+pika
+kazoo
+schedule
+

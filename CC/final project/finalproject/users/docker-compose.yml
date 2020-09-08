@@ -1,0 +1,19 @@
+version: '3.3'
+
+services:
+  users:
+    container_name: users
+    image: users
+    restart: always
+    environment:
+      - TEAM_NAME=CC_0024_0162_1618_1640 
+    volumes:
+      - .:/todo
+    build: .
+    command: python adduser.py 
+    expose:
+      - "80"
+    ports:
+      - 80:80
+
+      
